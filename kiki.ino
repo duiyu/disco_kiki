@@ -111,8 +111,8 @@ void humiColor (float humiIndex) {
       humiRed = numRed;
       humiGreen = numGreen;
   } else if ( humiIndex >60)  {
-      humiRed = 0;
-      humiGreen = 50;
+      humiRed = 250;
+      humiGreen = 0;
   }
     
   for( int i = 1; i < NUM_LEDS; i = i + 3) {
